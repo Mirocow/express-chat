@@ -3,7 +3,6 @@
 Express chat is a node.js multi-server chat application.
 Messages are sent with Socket-IO and saved in MongoDB.
 
-
 ## Requirements
 * Node.js >= v0.6.2
 * MongoDB and Redis installed and running.
@@ -27,3 +26,5 @@ or
 * Upgrade version of express-autoload
 * Simplify the code
 * Reimplement Mubsub and socket.io-mongodb to reuse a mongo connection (don't use mongoskin). The goal would be to use MongoDB for PubSub and get rid of Redis.
+* Add nconf for store configuration
+* Add tepmplate enjine Jade
