@@ -11,11 +11,20 @@
     "redis",
     "socket-io"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Mirocow/express-chat.git"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rfrench/curler.git"
+  },
   "dependencies": {
-    "express-autoload": "0.1.11",
+    "express-autoload": "Mirocow/express-autoload#master",
     "debug": "0.7.0",
+    "express3-plates": "~0.1.5",
     "step": "0.0.5",
-    "express3-plates": "~0.1.5"
+    "curler": "rfrench/curler#master"
   },
   "main": "./app.js",
   "engines": {

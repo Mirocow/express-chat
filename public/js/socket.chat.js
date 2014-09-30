@@ -1,16 +1,16 @@
 
 function runChatClient(app) {
     
-    var client = io.connect('/chat');
+    var client = io.connect('/nodejs/chat');
     
     client.on('new message',  addMessage);
-    client.on('new messages', addMessages);
+    //client.on('new messages', addMessages);
     
-    client.on('ready',        app.showWelcomeMessage);
-    client.on('users',        app.setUsers);
-    client.on('user joined',  app.userJoined);
-    client.on('user left',    app.userLeft);
-    client.on('user renamed', app.userRenamed);
+    //client.on('ready',        app.showWelcomeMessage);
+    //client.on('users',        app.setUsers);
+    //client.on('user joined',  app.userJoined);
+    //client.on('user left',    app.userLeft);
+    //client.on('user renamed', app.userRenamed);
 
     client.on('connect', function () {
         client.emit('join room', app.ROOMID, app.msgCount, function(err, name) {
@@ -26,12 +26,14 @@ function runChatClient(app) {
         if(msg.body != null) {
             app.showMessage(msg);
         }
+                showNotReadMessage();
     }
     
     function addMessages(messages) {
         if(messages && messages.constructor === Array) {
             messages.forEach(addMessage);
         }
+
     }
 
 
@@ -53,9 +55,9 @@ function runChatClient(app) {
     }
     
     app.submitMessageButton.click(sendMessageHandler);
-    app.renameButton.click(renameHandler);
+    //app.renameButton.click(renameHandler);
     bindEnter(app.messageBox, sendMessageHandler);
-    bindEnter(app.nameBox, renameHandler);
+    //bindEnter(app.nameBox, renameHandler);
     
     function sendMessageHandler() {
         var msg = app.messageBox.val();
@@ -68,18 +70,18 @@ function runChatClient(app) {
         app.messageBox.val('');
     }
     
-    function renameHandler() {
+    /*function renameHandler() {
         var name = app.nameBox.val();
         if(name && name != app.username) {
             changeUsername(name);
         }
-    }
+    }*/
 
     function sendMessage(message) {
         client.emit("message", message);
     }
 
-    function changeUsername(newname) {
+    /*function changeUsername(newname) {
         if(newname) {
             if(newname > app.MAX_USR_LEN) newname = newname.substr(0, app.MAX_USR_LEN);
 		        client.emit("change name", newname, function(err, name) {
@@ -90,7 +92,7 @@ function runChatClient(app) {
                 }
             });
         }
-    }
+    }*/
 
 }
 

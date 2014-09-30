@@ -9,7 +9,7 @@ var config = {
   , database  : {
         mongo : {
             servers : [
-                'localhost:27017/express-chat'
+                'express-chat:pass@localhost:27017/express-chat'
             ]
           , options : {
                 server : {
@@ -40,7 +40,7 @@ var config = {
         , views       : path.join(application_root, 'app', 'views')
         , libs        : path.join(application_root, 'app', 'libs')
         , controllers : path.join(application_root, 'app', 'controllers')
-        , conf        : path.join(application_root, 'conf', 'index')
+        //, conf        : path.join(application_root, 'conf', 'index')
         //, crons       : path.join(application_root, 'app', 'crons')
         , favicon     : path.join(application_root, 'public', 'favicon.ico')
         , statics     : {
@@ -60,10 +60,16 @@ var config = {
       , engine  : 'mongo'
     }
   , middlewares : [
-        "json", "urlencoded", "cookieParser", "session", "compress", "static", "favicon",
+        "json",
+        "urlencoded",
+        "cookieParser",
+        "session",
+        "compress",
+        "static",
+        "favicon"
     ]
   , socketio : {
-        store   : 'redis'
+        store   : 'memory'
       , enable  : [
             'browser client minification'
           , 'browser client etag'
@@ -72,10 +78,10 @@ var config = {
             'log level'   : 2
           , 'transports'  : [
                 'websocket'
-              , 'flashsocket'
-              , 'htmlfile'
-              , 'xhr-polling'
-              , 'jsonp-polling'
+              //, 'flashsocket'
+              //, 'htmlfile'
+              //, 'xhr-polling'
+              //, 'jsonp-polling'
             ]
           //, 'browser client gzip' // opened issue : https://github.com/LearnBoost/socket.io/issues/932
         }
@@ -96,7 +102,11 @@ var config = {
     }
 };
 
-module.exports = function(userconfig) {
+module.exports = function() {
+  return config;
+}
+
+/*module.exports = function(userconfig) {
     return (userconfig) ? mergeRecursive(config, userconfig) : config;
 }
 
@@ -115,6 +125,6 @@ function mergeRecursive(obj1, obj2) {
         }
     }
   return obj1;
-}
+}*/
 
 

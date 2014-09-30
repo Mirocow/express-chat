@@ -5,13 +5,13 @@ module.exports = function(app) {
     
     return {
         urls : [
-            ["/",                               "index.index",          "get"  ],
-            ["/rooms/create",                   "index.createRoom",     "post" ],
-            ["/r/:roomid",                      "chat.index",           "get"  ],
+            //["/nodejs", "index.index", "get"  ],
+            //["/nodejs/rooms/create", "index.createRoom","post"],
+            ["/nodejs/r/:roomid", "chat.index","get"]
         ]
         
       , ios : [
-            ["/chat",                           "chat.socket",          "on.connection"   ],
+            ["/nodejs/chat", "chat.socket", "on.connection"]
         ]
     };
 
