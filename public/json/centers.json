@@ -1,0 +1,11 @@
+{
+	"response" : [
+		{
+			"name" : "Краснодар",
+			"url" : "http://crm-m.loc/verstka-2/center-statistic.html?id=1"
+		},{
+			"name" : "Москва",
+			"url" : "http://crm-m.loc/verstka-2/center-statistic.html?id=2"
+		}
+	]
+}

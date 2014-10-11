@@ -1,0 +1,47 @@
+{
+	"response" : [
+		{
+			"name" : "Январь",
+			"costs" : [{
+				"id" : 1,
+				"date" : "18.01",
+				"number" : "1488",
+				"comment" : "Мобильная связь",
+				"who" : "Admin"
+				},{
+				"id" : 2,
+				"date" : "18.01",
+				"number" : "14881",
+				"comment" : "Мобильная связь",
+				"who" : "Admin"
+				},{
+				"id" : 3,
+				"date" : "18.01",
+				"number" : "14882",
+				"comment" : "Мобильная связь",
+				"who" : "Admin"
+				}]
+		},{
+			"name" : "Февраль",
+			"costs" : [{
+				"id" : 4,
+				"date" : "18.01",
+				"number" : "14883",
+				"comment" : "Мобильная связь",
+				"who" : "Admin"
+				},{
+				"id" : 5,
+				"date" : "18.01",
+				"number" : "14884",
+				"comment" : "Мобильная связь",
+				"who" : "Admin"
+				},{
+				"id" : 6,
+				"date" : "18.01",
+				"number" : "14885",
+				"comment" : "Мобильная связь",
+				"who" : "Admin"
+				}]
+		}
+	]
+}

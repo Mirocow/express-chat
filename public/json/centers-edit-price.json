@@ -1,0 +1,37 @@
+{
+	"response" : [
+		{
+			"id" : 1 ,
+			"name" : "A",
+			"solutions" : [{
+				"count" : 1,
+				"price" : 100
+			},{
+				"count" : 5,
+				"price" : 100
+			},{
+				"count" : 10,
+				"price" : 100
+			},{
+				"count" : 15,
+				"price" : 100
+			}]
+		},{
+			"id" : 2 ,
+			"name" : "B",
+			"solutions" : [{
+				"count" : 1,
+				"price" : 100
+			},{
+				"count" : 5,
+				"price" : 100
+			},{
+				"count" : 10,
+				"price" : 100
+			},{
+				"count" : 15,
+				"price" : 100
+			}]
+		}
+	]
+}

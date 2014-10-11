@@ -1,0 +1,67 @@
+{
+	"response" : [
+		{
+			"id": 1,
+			"name": "Москва",
+			"color" : "ff0000",
+			"rooms": [
+				{
+					"id": "fsdfasdf",
+					"news": 2,
+					"user": {
+						"name": "Иван1",
+						"role": "manager",
+						"id": 312
+					}
+				},{
+					"id": "dtUuOc4s",
+					"news": 0,
+					"user": {
+						"name": "Иван2",
+						"role": "manager",
+						"id": 313
+					}
+				},{
+					"id": "fsdfasdf",
+					"news": 4,
+					"user": {
+						"name": "Иван3",
+						"role": "manager",
+						"id": 314
+					}
+				}
+			] 
+		},{
+			"id": 2,
+			"name": "Москва",
+			"color" : "00ff00",
+			"rooms": [
+				{
+					"id": "fsdfasdf",
+					"news": 2,
+					"user": {
+						"name": "asdfasdf",
+						"role": "manager",
+						"id": 312
+					}
+				},{
+					"id": "dtUuOcssssaa4s",
+					"news": 0,
+					"user": {
+						"name": "Иasdfasdf",
+						"role": "manager",
+						"id": 313
+					}
+				},{
+					"id": "fsdfasdf",
+					"news": 4,
+					"user": {
+						"name": "Иван3",
+						"role": "manager",
+						"id": 314
+					}
+				}
+			] 
+		}
+	]
+}

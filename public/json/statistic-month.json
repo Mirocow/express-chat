@@ -1,0 +1,57 @@
+{
+	"city" : [
+		{
+			"id" : 1,
+			"name" : "Краснодар",
+			"color" : "lime",
+			"statMonth" : [{
+				"date" : "2012-01",
+				"total" : 148866,
+				"cost" : 666,
+				"profit" : 1488,
+				"goods" : [{
+					"name" : "К",
+					"sell" : 1488,
+					"lost" : 666
+					},{
+					"name" : "Т",
+					"sell" : 1488,
+					"lost" : 666
+					}]
+			}]
+		},{
+			"id" : 2,
+			"name" : "Москву",
+			"color" : "red",
+			"statMonth" : [{
+				"date" : "2012-01",
+				"total" : 1433,
+				"cost" : 666,
+				"profit" : 1488,
+				"goods" : [{
+					"name" : "К",
+					"sell" : 1488,
+					"lost" : 666
+					},{
+					"name" : "Т",
+					"sell" : 1488,
+					"lost" : 666
+					}]
+			},{
+				"date" : "2012-02",
+				"total" : 14343,
+				"cost" : 666,
+				"profit" : 1488,
+				"goods" : [{
+					"name" : "К",
+					"sell" : 1488,
+					"lost" : 666
+					},{
+					"name" : "Т",
+					"sell" : 1488,
+					"lost" : 666
+					}]
+			}]
+		}
+	]
+}

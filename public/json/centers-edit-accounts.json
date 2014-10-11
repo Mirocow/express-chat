@@ -1,0 +1,40 @@
+{
+	"response" : [
+		{
+			"id" : 1,
+			"status" : "lock",
+			"name" : "Вася",
+			"login" : "vasya",
+			"password" : "1234",
+			"range" : "operator"
+		},{
+			"id" : 2,
+			"status" : "unlock",
+			"name" : "Петя",
+			"login" : "vasya",
+			"password" : "1234",
+			"range" : "operator"
+		},{
+			"id" : 3,
+			"status" : "lock",
+			"name" : "Леша",
+			"login" : "vasya",
+			"password" : "1234",
+			"range" : "manager"
+		},{
+			"id" : 4,
+			"status" : "unlock",
+			"name" : "Кеша",
+			"login" : "vasya",
+			"password" : "1234",
+			"range" : "manager"
+		},{
+			"id" : 5,
+			"status" : "lock",
+			"name" : "Настя",
+			"login" : "vasya",
+			"password" : "1234",
+			"range" : "operator"
+		}
+	]
+}

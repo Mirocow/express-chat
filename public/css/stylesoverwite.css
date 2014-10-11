@@ -1,0 +1,238 @@
+.conversation {
+  display: block;
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+  line-height: 2em;
+  font-size: 2em;
+  text-align: center;
+  color: #f3f3f3;
+}
+td > .conversation, .btn > .conversation {width:1em; height:1em; font-size:1em; margin: 3px;}
+.conversation.moskow {background:#90DF9C; color:#f3f3f3; }
+.conversation.krasnodar {background:#D4911A; color:#f3f3f3; }
+.conversation.irkutsk {background:#90BFDF; color:#f3f3f3;}
+.moskow {color:#90DF9C; font-weight: 600;}
+.krasnodar {color:#D4911A; font-weight: 600;}
+.irkutsk {color:#90BFDF; font-weight: 600;}
+.active-goods .fa {margin:auto;}
+.active-goods .fa-check {color:#9ad268;}
+.active-goods .fa-ban {color:#f51901;}
+#change-type-modal .btn {margin:0 auto;}
+.change-type {margin-top:15px;}
+.operators-add .btn, #sklad .btn, #qiwi .btn {margin-top:25px;}
+.link-mail {color:#E49303; text-decoration: underline;}
+.link-mail:hover {color:#E5B256; text-decoration: none;}
+.chat-messages {
+  border: 1px solid #c5c5c5;
+}
+.nav-tabs {border:none;}
+.chat-messages > div {
+  font-size: 1em;
+  border: 1px solid #c5c5c5;
+  background: #f7f7f7;
+  padding: 15px 25px;
+  margin: 15px 0;
+}
+.chat-messages > div.chat-owner {
+  background: #fff;
+  float: right;
+}
+.clear {
+  display: block;
+  clear: both;
+  width: 1px;
+  height: 0.001%;
+  font-size: 0px;
+  line-height: 0px;
+}
+.tab-pane .badge {font-size: 15px; margin-top:24px;}
+.add-center .form-inline .form-control {
+  width: 90%;
+}
+.add-center h5 {
+  font-size: 1.3em;
+  line-height: 2.4em;
+}
+.add-center .add {
+  margin-top: 20px;
+  display: inline-block;
+}
+.add-center .add.collapsed {
+  display: none;
+}
+.accounts table {
+  background: #fff;
+}
+.friend-name {
+  line-height: 2em;
+}
+.friend-name .conversation {
+  font-size: 1em;
+  margin-right: .5em;
+}
+#wrapper .chat-wrapper .chat-inner {
+  background: #fff;
+}
+.dataTables_wrapper .ui-toolbar {padding:0;}
+.sidebar-mini #top-nav li {margin: 4px 10px;}
+.dropdown-toggle .fa-envelope {
+  font-size: 23px;
+  color: #ff7878;
+}
+.notification-label {
+  color: #999;
+  background: #fff;
+  top: 2px;
+}
+.costs-form input{
+  margin: 10px 0;
+}
+.costs-form button{
+  width: 100%;
+}
+
+.change-table{
+  vertical-align: middle;
+}
+.change-table thead{
+  font-weight: bold;
+}
+#costs .change-table td{
+  vertical-align: middle;
+}
+#costs .change-table .input-cell{
+  padding: 0;
+}
+.change-table input{
+  border: none;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  text-indent: 5px;
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  outline: none;
+  background: none;
+}
+.change-table input[type="text"]:disabled{
+  background: none;
+}
+.change-table button{
+  display: none;
+  border: none;
+  background: none;
+  padding: 0;
+}
+.change-table .fa{
+  font-size: 26px;
+}
+.change-table-inputs{
+  max-width: 26px;
+}
+.change-table-input{
+  text-align: center;
+  cursor: pointer;
+}
+
+.switch {
+  cursor: pointer;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  width: 105px;
+  height: 30px;
+  margin-top: 25px;
+  vertical-align: middle;
+}
+/* Background image */
+.switch .background {
+  background: url('../img/switch-background.png');
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 161px;
+  height: 30px;
+}
+/* Mask */
+.switch .mask {
+  background: url('../img/switch-background.png');
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 105px;
+  height: 30px;
+}
+
+html, body{
+  height: 100%;
+}
+
+.chat-header .nav-tabs{
+  border-bottom: 1px solid #eee;
+  padding: 0 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.chat-header .nav-tabs a{
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  padding: 10px 25px;
+}
+.chat-header .badge{
+  margin: 0;
+  background: none;
+  color: #FF4136;
+  padding: 0 7px 0 10px;
+}
+.chat-header .tab-pane{
+  padding: 10px;
+}
+.chat-header .tab-pane a{
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+}
+.chat-header .tab-pane a.active{
+  background: #88ca4c;
+}
+#costs .change-table-inputs{
+  width: 37px !important;
+}
+#costs .data-td,
+#costs .price-td{
+  width: 1px;
+  text-align: right;
+}
+.min-td{
+  width: 1px;
+}
+.min-td-adsress{
+  width: 100px;
+}
+#qiwi .change-wrapper .btn{
+  margin-top: 0;
+}
+
+.modal-header h4 {
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: center;
+    color: #3c8dbc;
+    font-weight: bold;
+}
+
+textarea.form-control {
+    font-size: 14px;
+}
+
+#messages .new-msg .chat-body{
+  background: #f3f3f3;
+}

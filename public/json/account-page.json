@@ -1,0 +1,23 @@
+{
+	"response" : [
+		{
+			"id" : 1,
+			"login" : "ivanov",
+			"password" : "qwerty",
+			"name" : "Иванов Иван",
+			"status" : "lock"
+		},{
+			"id" : 2,
+			"login" : "sidarov",
+			"password" : "qwerty123",
+			"name" : "Иванов Иван",
+			"status" : "unlock"
+		},{
+			"id" : 3,
+			"login" : "pupkin",
+			"password" : "qwerty13570",
+			"name" : "Иванов Иван",
+			"status" : "unlock"
+		}
+	]
+}

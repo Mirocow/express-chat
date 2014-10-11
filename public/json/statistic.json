@@ -1,0 +1,186 @@
+{
+	"city" : [
+		{
+			"id" : 1,
+			"name" : "Краснодар",
+			"color" : "lime",
+			"statDays" : [{
+				"date" : "2012-02-24",
+				"value" : 1024
+				},{
+				"date" : "2012-02-25",
+				"value" : 1024
+				},{
+				"date" : "2012-02-26",
+				"value" : 1024
+				},{
+				"date" : "2012-02-27",
+				"value" : 1024
+				},{
+				"date" : "2012-02-28",
+				"value" : 1024
+				},{
+				"date" : "2012-02-29",
+				"value" : 1024
+				},{
+				"date" : "2012-03-01",
+				"value" : 1024
+				}],
+			"status" : true,
+			"activeGoods" : [{
+				"value" : "К:131"
+				},{
+				"value" : "Т:122"
+				},{
+				"value" : "И:122"
+				}],
+			"remainsGoods" : [{
+				"value" : "К:131"
+				},{
+				"value" : "Т:122"
+				},{
+				"value" : "И:122"
+				}],
+			"statMonth" : [{
+				"date" : "2012-01",
+				"total" : 148866,
+				"cost" : 666,
+				"profit" : 1488,
+				"goods" : [{
+					"name" : "К",
+					"sell" : 1488,
+					"lost" : 666
+					},{
+					"name" : "Т",
+					"sell" : 1488,
+					"lost" : 666
+					}]
+			}],
+			"topManager" : [{
+				"id" : 1,
+				"name" : "Моня",
+				"value" : 33
+				}],
+			"topOperator" : [{
+				"id" : 21,
+				"name" : "Коля",
+				"value" : 44
+				},{
+				"id" : 23,
+				"name" : "Света",
+				"value" : 55
+				}],
+			"mean" : [{
+				"generalMonth" : 1313,
+				"generalDay" : 1313,
+				"sellMonth" : 1313,
+				"sellDay" : 1488,
+				"lostMonth" : 1488,
+				"profitMonth" : 1488,
+				"costMonth" : 1313
+				}]
+		},{
+			"id" : 2,
+			"name" : "Москва",
+			"color" : "red",
+			"statDays" : [{
+				"date" : "2012-02-24",
+				"value" : 2024
+				},{
+				"date" : "2012-02-25",
+				"value" : 2024
+				},{
+				"date" : "2012-02-26",
+				"value" : 2024
+				},{
+				"date" : "2012-02-27",
+				"value" : 2024
+				},{
+				"date" : "2012-02-28",
+				"value" : 2024
+				},{
+				"date" : "2012-02-29",
+				"value" : 2024
+				},{
+				"date" : "2012-03-01",
+				"value" : 2024
+				}],
+			"status" : false,
+			"activeGoods" : [{
+				"value" : "К:131"
+				},{
+				"value" : "Т:122"
+				},{
+				"value" : "И:122"
+				}],
+			"remainsGoods" : [{
+				"value" : "К:131"
+				},{
+				"value" : "Т:122"
+				},{
+				"value" : "И:122"
+				}],
+			"statMonth" : [{
+				"date" : "2012-01",
+				"total" : 1433,
+				"cost" : 666,
+				"profit" : 1488,
+				"goods" : [{
+					"name" : "К",
+					"sell" : 1488,
+					"lost" : 666
+					},{
+					"name" : "Т",
+					"sell" : 1488,
+					"lost" : 666
+					}]
+			},{
+				"date" : "2012-02",
+				"total" : 14343,
+				"cost" : 666,
+				"profit" : 1488,
+				"goods" : [{
+					"name" : "К",
+					"sell" : 1488,
+					"lost" : 666
+					},{
+					"name" : "Т",
+					"sell" : 1488,
+					"lost" : 666
+					}]
+			}],
+			"topManager" : [],
+			"topOperator" : [{
+				"id" : 2,
+				"name" : "Петя",
+				"value" : 60
+				},{
+				"id" : 3,
+				"name" : "Вася",
+				"value" : 22
+				},{
+				"id" : 5,
+				"name" : "Вася",
+				"value" : 22
+				},{
+				"id" : 11,
+				"name" : "Вася",
+				"value" : 3000
+				},{
+				"id" : 31,
+				"name" : "Вася",
+				"value" : 100
+				}],
+			"mean" : [{
+				"generalMonth" : 1313,
+				"generalDay" : 1313,
+				"sellMonth" : 1313,
+				"sellDay" : 1488,
+				"lostMonth" : 1488,
+				"profitMonth" : 1488,
+				"costMonth" : 1313
+				}]
+		}
+	],
+	"daySell" : 3494
+}
